@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/8Bts/Using-Jest-TDD#readme",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "@babel/preset-env": "^7.13.12",
+    "jest": "^25.5.4"
   }
 }
