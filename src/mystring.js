@@ -5,16 +5,7 @@ const mystring = (() => {
     return charArr.join('');
   };
 
-  const reverseString = (str) => {
-    const charArr = str.split('');
-    const result = [];
-
-    for (let i = charArr.length - 1; i >= 0; i -= 1) {
-      result.push(charArr[i]);
-    }
-
-    return result.join('');
-  };
+  const reverseString = (str) => str.split('').reverse().join('');
 
   return { capitalize, reverseString };
 })();
