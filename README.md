@@ -1,33 +1,24 @@
-# Weather Wizard
+# Testing With Jest
 
-This Web Application can get weather information anywhere in the world. It makes use of an awesome API provided by [OpenWeather](https://openweathermap.org/). All you need to do is search for the city name. Just give it a try!
-
-## Application Screenshot
-![screenshot](screenshots/screenshot.png)
+This repo contains TDD implementation and some test examples of jest library. Follow the instructions to test it out!
 
 ## Built With
 
-- HTML,
-- CSS,
 - ES6,
-- Bootsrap 4.6.0,
-- Webpack 5.24.2
+- jest
 - VS Code
-- Firefox Developer Edition
 
-## Live Demo
 
-[Githack](https://raw.githack.com/8Bts/To-Do-List/main-app/dist/index.html)
 
 ## Getting Started
 
   If you want to try this application locally, follow the steps below:
 
-  1. Clone the project using `git clone https://github.com/8Bts/Weather-App.git` command.
+  1. Clone the project using `git clone https://github.com/8Bts/Using-Jest-TDD.git` command.
 
   2. run `npm install`.
 
-  3. Open index.html using your browser.
+  3. run `npm run test`.
 
 ## Author
 
@@ -43,7 +34,7 @@ This Web Application can get weather information anywhere in the world. It makes
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/8Bts/Weather-App/issues" target="_blank">issues page</a>.
+Feel free to check the <a href="https://github.com/8Bts/Using-Jest-TDD/issues" target="_blank">issues page</a>.
 
 ## Show your support
 
@@ -53,9 +44,6 @@ Give a ⭐️ if you like this project!
 
 - [Microverse - Web Development School](https://www.microverse.org/)
 - [MDN WEB DOCS](https://developer.mozilla.org/)
-- [Open Weather](https://openweathermap.org/)
-- [Giphy](https://developers.giphy.com/)
-- <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a> 
 - <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>
 - <a href="https://www.stackoverflow.com/" target="_blank">Stackoverflow</a>
 
