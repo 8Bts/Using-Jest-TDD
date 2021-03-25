@@ -1,7 +1,7 @@
 const mystring = (() => {
   const capitalize = (str) => {
     const charArr = str.split('');
-    if(/[a-z]/.test(charArr[0])) charArr[0] = charArr[0].toUpperCase();
+    if (/[a-z]/.test(charArr[0])) charArr[0] = charArr[0].toUpperCase();
     return charArr.join('');
   };
 
@@ -9,7 +9,7 @@ const mystring = (() => {
     const charArr = str.split('');
     const result = [];
 
-    for(let i = charArr.length - 1; i >= 0; i--){
+    for (let i = charArr.length - 1; i >= 0; i -= 1) {
       result.push(charArr[i]);
     }
 
