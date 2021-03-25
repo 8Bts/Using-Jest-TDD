@@ -8,3 +8,7 @@ test('Returns capitalized string if first character is lowercase and alphabetic'
 test('Returns same string if first character is uppercase or non-alphabetic', () => {
   expect(mystring.capitalize('1. create repo')).toEqual('1. create repo');
 });
+
+test('Takes string and returns its reverse', () => {
+  expect(mystring.reverseString('Happy birthday!')).toEqual('!yadhtrib yppaH');
+});
